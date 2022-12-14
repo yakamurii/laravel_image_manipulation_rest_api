@@ -25,16 +25,16 @@ php artisan serve
 ```
 ## Como usar 
 
-Método | endpoints | Usage
+Method | endpoints | Usage
 ------------ | ------------- | -------------
-GET | `http://127.0.0.1:8000/api/v1/album`
-POST| `http://127.0.0.1:8000/api/v1/album`
-PUT | `http://127.0.0.1:8000/api/v1/album`
-DELETE | `http://127.0.0.1:8000/api/v1/album`
-GET| `http://127.0.0.1:8000/api/v1/image`
-GET | `http://127.0.0.1:8000/api/v1/image/{image}`
-GET | `http://127.0.0.1:8000/api/v1/image/by-album/{album}`
-POST | `http://127.0.0.1:8000/api/v1/image/resize?w=50%`
-POST | `http://127.0.0.1:8000/api/v1/image/resize?w=1024&h=1024`
-DELETE | `http://127.0.0.1:8000/api/v1/image/{image}`
+GET | `/api/v1/album` | Lista todos os álbuns.
+POST| `/api/v1/album` | Cria um novo álbum. Chave {nome}.
+PUT | `/api/v1/album/` | Atualiza o {nome} de um álbum.
+DELETE | `/api/v1/album` | Deleta um álbum.
+GET| `/api/v1/image` | Lista todas as imagens.
+GET | `/api/v1/image/{image}` | Mostra uma imagem específica.
+GET | `/api/v1/image/by-album/{album}` | Mostra as imagens de álbum.
+POST | `/api/v1/image/resize?w=50%` | Faz o envio de uma imagem com redimensionamento em porcentagem %.
+POST | `/api/v1/image/resize?w=1024&h=1024` | Faz o envio de uma imagem com redimensionamento em pixels.
+DELETE | `/api/v1/image/{image}` | Deleta uma imagem.
 
