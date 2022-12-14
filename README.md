@@ -26,7 +26,7 @@ php artisan serve
 ## Como usar 
 
 Método | endpoints |
------------- | -------------
+------------ | ------------- | -------------
 GET | `http://127.0.0.1:8000/api/v1/album`
 POST| `http://127.0.0.1:8000/api/v1/album`
 PUT | `http://127.0.0.1:8000/api/v1/album`
