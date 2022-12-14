@@ -5,9 +5,7 @@ Antes de começar, verifique se você atendeu aos seguintes requisitos:
 * Você instalou a versão 7.4 de `PHP`
 ## 🚀 Instalando o projeto
 
-1. Para instalar o Image Manipulation Rest API, siga estas etapas:
-
-Dentro da pasta root do projeto, execute:
+1. Para instalar o Image Manipulation Rest API, dentro da pasta root do projeto, execute:
 ```
 composer install
 ```
@@ -27,7 +25,7 @@ php artisan serve
 ```
 ## Como usar 
 
-Método | endpoint
+Método | endpoints |
 ------------ | -------------
 GET | `http://127.0.0.1:8000/api/v1/album`
 POST| `http://127.0.0.1:8000/api/v1/album`
